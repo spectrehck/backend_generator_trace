@@ -6,9 +6,9 @@ Object.defineProperty(exports, "__esModule", {
 var mysql = require("mysql");
 //local mysql db connection
 var connection = mysql.createConnection({
-    host: "localhost",
+    host: "34.65.153.111",
     user: "root",
-    password: "root",
+    password: "santacruz12",
     database: "traceability"
 });
 connection.connect(function(err) {
